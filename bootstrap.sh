@@ -39,6 +39,8 @@ mkdir run
 
 echo
 echo "Setup complete."
+echo
 echo "Open Eclipse workspace and Import the Minecraft project"
+echo
 
 # done
