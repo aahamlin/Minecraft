@@ -1,8 +1,8 @@
 [
 {
   "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "name": "My Example Mod",
+  "description": "My example module slowly being implemented",
   "version": "1.0",
   "mcversion": "1.7.10",
   "url": "",
