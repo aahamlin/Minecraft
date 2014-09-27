@@ -32,7 +32,7 @@ rm -f forge-1.7.10-10.13.0.1180-src.zip
 # to our Project directory rather than the workspace created
 # by Forge
 for F in `find eclipse/.metadata -type f -name \*.launch`; do
-  sed 's/\${workspace_loc}/\${project_loc}\/run/' $F > ${F}_ && mv ${F}_ $F
+  sed 's/\${workspace_loc}/\${workspace_loc:Minecraft}\/run/' $F > ${F}_ && mv ${F}_ $F
 done
 # Eclipse requires the run directory exist before launching...
 mkdir run
